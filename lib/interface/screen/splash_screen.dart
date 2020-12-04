@@ -6,6 +6,8 @@ class SplashScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    String a;
+
     return Scaffold(
       body: _buildBody(context),
     );
@@ -17,6 +19,7 @@ class SplashScreen extends StatelessWidget {
       children: [
         Spacer(),
         Expanded(
+          flex: 2,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             mainAxisSize: MainAxisSize.max,
